@@ -1,0 +1,106 @@
+  body {
+    /* background: linear-gradient(135deg, #71b7e6, #9b59);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+background-image: url(data:image/jpeg;base64,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);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Navbar */
+  .nav-link {
+    color: white !important;
+    border-bottom: 1px solid transparent;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .nav-link:hover {
+    border-bottom: 1px solid white;
+  }
+  
+  /* Home */
+  .home {
+    padding: 2px;
+    width: 290px;
+    height: 365px;
+    position: absolute;
+    box-shadow: 10px 10px 20px black;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .title {
+    text-align: center;
+  }
+  img {
+    width: 400px;
+    height: 280px;
+  }
+  
+  /* Create Account */
+  .account {
+    width: 700px;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .card-headera {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+  }
+  .error {
+    color: red;
+  }
+  .form-label {
+    font-weight: bold;
+  }
+  
+  /* Login Page */
+  
+  .login{
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+  /* Deposit */
+  .deposit {
+    width: 700px;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  input {
+    width: 650px;
+  }
+  
+  
+  .btnstyle{
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+    background: blueviolet;
+    transition: .5s ease;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+  }
+  .btnstyle:hover{
+    background: transparent;
+    border: 2px solid #799be6;
+    box-shadow: 0 0 10px 0 #799be6 inset,
+                0 0 10px 4px #799be6;
+    border-radius: 10px;
+    color: black;
+  }
+ 
+  /* withdraw */
+  .withdraw {
+    width: 700px;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
